@@ -1,0 +1,345 @@
+/* Navigation breakpoints */
+#hero{
+  height:270px !important;
+}
+
+.desktop-menu, .top-bar-left {
+  @include show-for(medium);
+  ul{
+    background: #FFFFFF;
+    li{
+      a{
+        &:hover{
+          background: #FFFFFF !important;
+        }
+      }
+    }
+  }
+}
+
+#mobile-menu, .title-bar {
+  @include hide-for(medium);
+}
+
+/* Mobile menu */
+
+.off-canvas {
+ > ul.menu {
+    height: 100vh;
+    padding: 1rem;
+  }
+}
+
+.title-bar-title {
+  a {
+    font-size: 1rem;
+    color: #B9B9B9;
+  }
+}
+
+/* Tablet and desktop menu */
+.top-bar {
+  ul{
+    background:#FFFFFF;
+  }
+  .menu .home a {
+    font-size: 1rem;
+    color: #B9B9B9;
+    height:51px;
+  }
+
+  .menu a {
+    height: 45px;
+    line-height: 45px;
+    color: #e6e6e6;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-weight: bold;
+    font-size: 0.8rem;
+    line-height: 1;
+  }
+
+  .menu>li:not(.menu-text)>a { padding: 1rem; }
+  .menu li:not(:last-child) { border-right: 1px solid #4e4e4e; }
+
+  .dropdown.menu .submenu {
+    background-color: #121212;
+    color: #e6e6e6;
+    border: 0;
+  }
+
+  .dropdown.menu .has-submenu.is-down-arrow a { padding-right: 1rem; }
+  .dropdown.menu .has-submenu.is-down-arrow > a::after { border: 0; }
+
+  .dropdown.menu:first-child >
+    li.is-dropdown-submenu-parent >
+    a::after {
+      display: none;
+    }
+
+}
+/* Basic styles for post navigation. Nicolas Gallagher's "Micro clearfix" https://css-tricks.com/snippets/css/clear-fix/ */
+.post-navigation:before,
+.post-navigation:after {
+	content: "";
+    	display: table;
+}
+.post-navigation:after {
+	clear:both;
+}
+/* Text meant only for screen readers. Addresses part of theme-check issue #840. https://github.com/Automattic/_s/blob/master/style.css */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+.nav-previous {
+	float:left;
+}
+.nav-next {
+	float:right;
+}
+#menu-trigger{
+  cursor:pointer;
+  position: absolute;
+  left:40px;
+}
+#mobile-navigation{
+  transition: all 0.5s ease;
+  background: #CA67DE;
+  overflow: hidden;
+  ul{
+    list-style-type: none;
+    li{
+      text-align: center;
+      padding-top:20px;
+      &:first-child{
+        padding-top:40px;
+      }
+      &:last-child{
+        padding-bottom:10px;
+        &:after{
+          border-bottom: none;
+        }
+      }
+      &:after{
+        content: '  ';
+        display: block;
+        border-bottom:1px solid #dddddd;
+        width:30px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 20px;
+      }
+      a{
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+#site-navigation{
+  border-top:1px solid #CA67DE;
+  border-bottom:1px solid #CA67DE;
+  padding:21px 20px 20px 20px;
+  background: #ffffff;
+  text-align: center;
+  position: relative;
+  height:68px;
+  ul.desktop{
+    margin:0px;
+    li{
+      display: inline;
+      a{
+        text-transform: uppercase;
+        color:$theme-purple;
+        letter-spacing: 1px;
+        &:hover{
+          opacity: .7;
+        }
+      }
+      padding-left:30px;
+      &.search-trigger{
+        padding-left:20px;
+        i{
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+#social-media-top{
+  display: inline-block;
+  position: absolute;
+  right:40px;
+  top: 18px;
+  a{
+    padding-left:5px;
+    i{
+      font-size:12px;
+      width: 34px;
+      height: 34px;
+      line-height: 33px;
+      border-radius:50%;
+      padding-left: 2px !important;
+      border:1px solid $theme-purple;
+      color: $theme-purple;
+      &.fa-facebook{
+        padding-left:0px !important;
+      }
+      &:hover{
+        opacity: .7;
+      }
+    }
+  }
+  .social-icon{
+    padding-left:7px;
+    &:hover{
+      transform: scale(1.1);
+    }
+  }
+}
+// Page header
+#hero {
+  .marketing {
+    @include grid-row();
+    max-width: 55rem;
+  }
+
+  @include breakpoint(small) {
+    //background: url('../images/global/hero-bg-small.jpg') bottom center;
+    background-size: cover;
+    background-position: bottom;
+    padding: rem-calc(65%) 0;
+    height: auto;
+    position: relative;
+    text-align: left;
+  }
+
+  @include breakpoint(medium) {
+    background: url('../images/global/hero-bg.jpg') center center;
+    background-size: cover;
+    background-position: center;
+    height: rem-calc(685);
+  }
+
+  #watch {
+
+    @include breakpoint(small) {
+      @include grid-column(7);
+      @include grid-column-position(-5);
+    }
+
+    @include breakpoint(medium) {
+      @include grid-column(12);
+      @include grid-column-position(0);
+    }
+
+    section {
+      display: inline;
+    }
+
+    a {
+      color: #B4C9D1;
+      cursor: pointer;
+      font-weight: 400;
+      margin-right: rem-calc(20);
+    }
+
+    a:hover {
+      color: #fff;
+    }
+
+    #stargazers {
+      :before {
+        content: "\f09b";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: inherit;
+        color: #B4C9D1;
+        margin-right: rem-calc(8);
+      }
+    }
+
+    #twitter {
+      :before {
+        content: "\f099";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: inherit;
+        color: #B4C9D1;
+        margin-right: rem-calc(8);
+      }
+    }
+
+  }
+
+  .tagline {
+
+    @include breakpoint(small) {
+      @include grid-column(8);
+    }
+
+    @include breakpoint(medium) {
+      @include grid-column(5);
+      padding-top: 6rem;
+    }
+
+  }
+
+  h1 {
+    color: #fff;
+    font-weight: 500;
+
+    @include breakpoint(small) {
+      font-size: 2.2rem;
+    }
+
+    @include breakpoint(medium) {
+      font-size: 2.875rem;
+    }
+
+  }
+
+  h4 {
+    color: #fefefe;
+    font-weight: 300;
+    font-size: 1.3125rem;
+  }
+
+  .download { margin-top: rem-calc(20); }
+
+}
+#logo{
+  margin-left:auto;
+  margin-right:auto;
+  display: block;
+}
+.title-bar {
+  background: #ffffff;
+}
