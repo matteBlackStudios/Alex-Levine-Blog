@@ -11,11 +11,15 @@ get_header(); ?>
 <?php
 	$article_type = types_render_field( "post-type", array("output"=>"raw"));
 	if( $article_type == 'article'){
-		get_template_part('template-parts/single-article');
+		get_template_part('page-templates/single-article');
 	}
 	else if($article_type == 'technology'){
-
-	}else{
+		get_template_part('page-templates/single-technology');
+	}
+	else if($article_type == 'fave'){
+		get_template_part('page-templates/single-fave');
+	}
+	else{
 		get_template_part('template-parts/single-article');
 	}
 ?>

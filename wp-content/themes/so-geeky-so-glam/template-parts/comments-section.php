@@ -1,7 +1,7 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: sadesmith
- * Date: 9/27/16
- * Time: 10:53 AM
- */
+<div class="row" id="comments-container" >
+    <div class="columns large-12">
+        <div class="content">
+            <?php comments_template(); ?>
+        </div>
+    </div>
+</div>

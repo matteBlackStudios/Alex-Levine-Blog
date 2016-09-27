@@ -7,10 +7,11 @@
  * @package FoundationPress
  * @since FoundationPress 1.0.0
  */
+$classes = (is_single()) ? types_render_field( "post-type", array("output"=>"raw")).'-post' : '';
 
 ?>
 <!doctype html>
-<html class="no-js" <?php language_attributes(); ?> >
+<html class="no-js " <?php language_attributes(); ?> >
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,7 +19,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
 	</head>
-	<body <?php body_class(); ?>>
+	<body <?php body_class($classes); ?>>
 	<?php do_action( 'foundationpress_after_body' ); ?>
 
 	<?php if ( get_theme_mod( 'wpt_mobile_menu_layout' ) == 'offcanvas' ) : ?>

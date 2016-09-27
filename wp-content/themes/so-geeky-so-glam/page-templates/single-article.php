@@ -49,11 +49,4 @@
 
 </div>
 
-
-<div class="row full-width" id="comments-container" >
-    <div class="columns large-12">
-        <div class="content">
-            <?php comments_template(); ?>
-        </div>
-    </div>
-</div>
+<?php get_template_part('template-parts/comments-section'); ?>

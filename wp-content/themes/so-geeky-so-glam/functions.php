@@ -59,3 +59,9 @@ function add_post_formats() {
 add_action( 'after_setup_theme', 'add_post_formats', 20 );
 
 add_action( 'admin_init', 'hide_editor' );
+
+function custom_admin_js() {
+    $url = get_template_directory_uri(). '/assets/javascript/custom/admin.js';
+    echo '"<script type="text/javascript" src="'. $url . '"></script>"';
+}
+add_action('admin_footer', 'custom_admin_js');

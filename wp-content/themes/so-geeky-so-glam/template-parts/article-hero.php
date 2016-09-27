@@ -9,7 +9,7 @@
         $posttags = get_the_tags();
         if ($posttags) {
             foreach($posttags as $tag) {
-                echo '<a href="#" class="clear-tag">'.$tag->name . ' </a>';
+                echo '<a href="'.get_tag_link($tag->term_id).'" class="clear-tag">'.$tag->name . ' </a>';
             }
         }
         ?>
