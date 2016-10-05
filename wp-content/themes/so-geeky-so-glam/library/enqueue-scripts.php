@@ -14,7 +14,6 @@ if ( ! function_exists( 'foundationpress_scripts' ) ) :
 
 		// Enqueue the main Stylesheet.
 		wp_enqueue_style( 'main-stylesheet', get_template_directory_uri() . '/assets/stylesheets/foundation.css', array(), '2.6.1', 'all' );
-		wp_enqueue_style( 'slick-stylesheet', get_template_directory_uri() . '/assets/stylesheets/slick.css', array(), '', 'all' );
 
 		// Deregister the jquery version bundled with WordPress.
 		wp_deregister_script( 'jquery' );
@@ -25,10 +24,13 @@ if ( ! function_exists( 'foundationpress_scripts' ) ) :
 		// If you'd like to cherry-pick the foundation components you need in your project, head over to gulpfile.js and see lines 35-54.
 		// It's a good idea to do this, performance-wise. No need to load everything if you're just going to use the grid anyway, you know :)
 		wp_enqueue_script( 'foundation', get_template_directory_uri() . '/assets/javascript/foundation.js', array('jquery'), '2.6.1', true );
+		wp_enqueue_script( 'classie', get_template_directory_uri() . '/assets/javascript/vendor/classie/classie.js', array('jquery', 'modernizr'), '', false );
+		wp_enqueue_script( 'modernizr', get_template_directory_uri() . '/assets/javascript/vendor/mordernizr/modernizr.custom.js', array('jquery'), '', true );
 
-		if(is_single()){
+		if(is_single() || is_front_page()){
 			wp_enqueue_script( 'slick-js', get_template_directory_uri() . '/assets/javascript/vendor/slick/slick.min.js', array(), '', false );
 			wp_enqueue_script( 'article-js', get_template_directory_uri() . '/assets/javascript/pages/article.js', array('jquery', 'slick-js'), '', false );
+			wp_enqueue_style( 'slick-stylesheet', get_template_directory_uri() . '/assets/stylesheets/slick.css', array(), '', 'all' );
 		}
 		// Add the comment-reply library on pages where it is necessary
 		if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

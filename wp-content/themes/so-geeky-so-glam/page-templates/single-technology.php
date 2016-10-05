@@ -24,12 +24,12 @@
 </div>
 
 <div class="row bottom-featured-section">
-    <div class="columns large-6  medium-6 small-12 image">
+    <div class="columns large-6  medium-12 small-12 image">
         <div class="featured-image">
             <img src="<?= types_render_field( "bottom-hero-copy-featured-image", array("output"=>"raw")); ?>"  alt="featured bottom image"/>
         </div>
     </div>
-    <div class="columns large-6  medium-6 small-12 copy">
+    <div class="columns large-6  medium-12 small-12 copy">
         <div class="featured-copy">
             <p><?= types_render_field( "bottom-hero-copy", array("output"=>"html")); ?></p>
         </div>
@@ -50,11 +50,7 @@
             }
             ?>
         </div>
-        <div class="share-buttons">
-            <a href=""><div class="title like"><i class="fa fa-heart" aria-hidden="true"></i> <span>Like</span> <span class="count">2</span></div></a>
-            <a href=""><div class="title fb"><i class="fa fa-facebook" aria-hidden="true"></i> Share</div></a>
-            <a href=""><div class="title tweet"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet</div></a>
-        </div>
+        <?php get_template_part('template-parts/share-section')?>
         <?php while ( have_posts() ) : the_post(); ?>
             <div class="entry-content">
                 <?php edit_post_link( __( 'Edit', 'foundationpress' ), '<span class="edit-link">', '</span>' ); ?>

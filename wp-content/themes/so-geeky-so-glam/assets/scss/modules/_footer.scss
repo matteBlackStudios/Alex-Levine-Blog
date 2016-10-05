@@ -7,6 +7,8 @@
 		@include grid-row();
 		padding-top:50px;
 		padding-bottom:50px;
+		padding-left: 30px;
+		padding-right: 30px;
 			.right{
 			ul {
 					list-style-type: none;
@@ -19,7 +21,12 @@
 					a{
 						font-size:13px;
 						text-transform: uppercase;
-						color: #3C3D41;
+						color: #3C3D41 !important;
+						letter-spacing:1px;
+						font-weight:bold;
+						&:hover{
+							color: $theme-dark-purple !important;
+						}
 					}
 				}
 			}
@@ -34,6 +41,7 @@
 					text-transform: uppercase;
 					color: #3B3D40;
 					margin-right:27px;
+					letter-spacing:2px;
 				}
 				input{
 					display: inline;
@@ -72,6 +80,8 @@
 			}
 		}
 		@include breakpoint(small only){
+			padding-left: 10px;
+			padding-right: 10px;
 			.left{
 				img{
 					width:200px;

@@ -2,36 +2,121 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d52588bf-baf7-45a9-80eb-c3e5ed979282" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/javascript/custom/admin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/single-fave.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/single-technology.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/archive-hero.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/article-hero-gallery.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/comments-section.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/post-content.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/08/slider-images-2-1-150x150.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/08/slider-images-2-1-300x178.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/08/slider-images-2-1-640x379.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/08/slider-images-2-1-768x455.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/08/slider-images-2-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/08/slider-images-2-150x150.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/08/slider-images-2-300x178.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/08/slider-images-2-640x379.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/08/slider-images-2-768x455.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/08/slider-images-2.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/single-article.php" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/single-article.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/author.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/TwitterAPIExchange.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/blog-page.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/category-page.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/contact-page.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/page-hero.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/search-page-hero.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/share-section.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/fonts/slick.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/fonts/slick.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/fonts/slick.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/fonts/slick.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/demo/customizable.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/demo/hero-bg-foundation-6-large.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/demo/hero-bg-foundation-6-small.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/demo/professional.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/demo/responsive.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/demo/semantic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/front/chair.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/front/featured-home-img.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/comment-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/comment-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/comment-pencil-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/email-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/fb-icon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/feat-product-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/feature-post-footer-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/gallery-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/gallery-left-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/gallery-right-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/hero-bg copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/hero-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/icon-stoke.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/left-hero-img.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/like-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/logo-footer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/menu-hamburger.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/most-recent-image-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/product-top-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/reply-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/right-hero-img.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/rss-icon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/share-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/time-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/tw-icon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/icons/apple-touch-icon-114x114.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/icons/apple-touch-icon-144x144.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/icons/apple-touch-icon-72x72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/icons/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/icons/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/javascript/custom/admin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/javascript/custom/flex-video.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/javascript/custom/init-foundation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/javascript/custom/joyride-demo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/javascript/custom/offCanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/javascript/custom/stickyfooter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/javascript/pages/article.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/javascript/pages/front.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/javascript/pages/global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/components/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/components/_dividers.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/components/_featured-image.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/components/_links.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/foundation.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/global/_settings.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/global/_wp-admin.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/global/_wp-overrides.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/modules/_editor-style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/modules/_footer.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/modules/_navigation.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/modules/_sidebar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/templates/_article.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/templates/_front.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/templates/_kitchen-sink.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/templates/_page-default.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/templates/_page-full-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/templates/_page-sidebar-left.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/templates/_single-post.scss" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/screenshot.png" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/screenshot.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/404.php" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/404.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/archive.php" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/archive.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/modules/_navigation.scss" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/modules/_navigation.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/templates/_article.scss" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/templates/_article.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/templates/_page-default.scss" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/templates/_page-default.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/comments.php" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/comments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/library/enqueue-scripts.php" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/library/enqueue-scripts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/library/foundation.php" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/library/foundation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/library/menu-walkers.php" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/library/menu-walkers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/library/navigation.php" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/library/navigation.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/front.php" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/front.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/single-article.php" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/single-article.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/single-fave.php" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/single-fave.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/single-technology.php" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/single-technology.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page.php" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/search.php" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/searchform.php" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/searchform.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/single.php" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/single.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/archive-hero.php" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/archive-hero.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/article-hero.php" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/article-hero.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/author-info.php" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/author-info.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/comments-section.php" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/comments-section.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/content-none.php" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/content-none.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/content.php" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/gallery.php" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/gallery.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/post-content.php" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/post-content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/side-bar-section.php" afterPath="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/side-bar-section.php" />
     </list>
     <ignored path="Alex Levine.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,118 +144,28 @@
     <favorites_list name="Alex Levine" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="single-technology.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/single-technology.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-9.196078">
-                  <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="65" selection-end-column="36" />
-                  <folding>
-                    <element signature="e#1602#1620#0#HTML" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="front.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/front.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-94.416664">
-                  <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="168" selection-end-column="10" />
-                  <folding>
-                    <element signature="e#152#317#0#HTML" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="archive.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/archive.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5272727">
-                  <caret line="42" column="81" selection-start-line="42" selection-start-column="81" selection-end-line="42" selection-end-column="81" />
-                  <folding>
-                    <element signature="e#6#561#0#PHP" expanded="true" />
-                    <element signature="e#864#938#0#HTML" expanded="true" />
-                    <element signature="e#1339#1413#0#HTML" expanded="true" />
-                    <element signature="e#1812#1886#0#HTML" expanded="true" />
-                    <element signature="e#2289#2363#0#HTML" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="_article.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/templates/_article.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.29411766">
-                  <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="51" selection-end-column="1" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_page-default.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/templates/_page-default.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.89575756">
-                  <caret line="157" column="21" selection-start-line="157" selection-start-column="21" selection-end-line="157" selection-end-column="21" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="archive.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/archive.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-2.137255">
-                  <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
-                  <folding>
-                    <element signature="e#6#561#0#PHP" expanded="true" />
-                    <marker date="1475014070000" expanded="true" signature="638:3786" placeholder="..." />
-                    <marker date="1475014070000" expanded="true" signature="2765:3780" placeholder="..." />
-                    <marker date="1475014070000" expanded="true" signature="2807:3168" placeholder="..." />
-                    <marker date="1475014070000" expanded="true" signature="2901:3019" placeholder="..." />
-                    <marker date="1475014070000" expanded="true" signature="3065:3167" placeholder="..." />
-                    <marker date="1475014070000" expanded="true" signature="3372:3403" placeholder="..." />
-                    <marker date="1475014070000" expanded="true" signature="3429:3751" placeholder="..." />
-                    <marker date="1475014070000" expanded="true" signature="3458:3731" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_navigation.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/modules/_navigation.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-5.4117646">
-                  <caret line="164" column="6" selection-start-line="164" selection-start-column="6" selection-end-line="164" selection-end-column="6" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="article-hero.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/article-hero.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-6.875">
-                  <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="61" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="side-bar-section.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/side-bar-section.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.42079207">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single-fave.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/single-fave.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.0">
+              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="125" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -185,43 +180,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/index.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/global/_settings.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/javascript/pages/front.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/modules/_footer.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/templates/_front.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/foundation.scss" />
-        <option value="$PROJECT_DIR$/wp-includes/comment-template.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/comments.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/stylesheets/slick.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/javascript/pages/global.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/javascript/pages/article.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/library/foundation.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/author-section.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/side-bar-section.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/gallery.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/single-article.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/author-info.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/single.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/comments-section.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/single-article.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/single-technology.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/library/enqueue-scripts.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/global/_wp-admin.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/javascript/custom/admin.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/templates/_article.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/single-fave.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/post-content.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/front.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/modules/_navigation.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/article-hero.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/archive-hero.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/article-hero-gallery.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/page-hero.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/contact-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/search.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/search-page-hero.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/content-none.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/searchform.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/404.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/kitchen-sink.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/single.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/post-content.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/gallery.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/content.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/library/menu-walkers.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/library/navigation.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/ajax/more.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/javascript/pages/global.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/share-section.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/share-section.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/single-fave.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/single-article.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/archive-hero.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/author.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/archive.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/category-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/blog-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/article-hero.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/library/foundation.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/comments-section.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/comments.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/modules/_footer.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/global/_settings.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/author-info.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/modules/_navigation.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/library/enqueue-scripts.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/front.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/javascript/pages/front.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/single-technology.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/stylesheets/foundation.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/templates/_front.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/templates/_page-default.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/templates/_article.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/side-bar-section.php" />
       </list>
     </option>
   </component>
@@ -235,10 +244,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="342" />
-    <option name="y" value="36" />
-    <option name="width" value="2051" />
-    <option name="height" value="1183" />
+    <option name="x" value="15" />
+    <option name="y" value="350" />
+    <option name="width" value="1918" />
+    <option name="height" value="968" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -411,6 +420,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Alex Levine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Alex Levine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="so-geeky-so-glam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -513,6 +548,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Alex Levine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Alex Levine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="so-geeky-so-glam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="global" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Alex Levine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Alex Levine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -528,14 +611,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam" />
       <recent name="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts" />
       <recent name="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates" />
-      <recent name="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/fonts" />
-      <recent name="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/stylesheets" />
-      <recent name="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/javascript/vendor/slick" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/api" />
       <recent name="$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global" />
     </key>
   </component>
@@ -583,16 +667,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="342" y="36" width="2051" height="1183" extended-state="0" />
+    <frame x="15" y="350" width="1918" height="968" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15032354" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1945629" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17291857" sideWeight="0.21304132" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25056946" sideWeight="0.2457356" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.014925373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23511755" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17291857" sideWeight="0.7869587" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25056946" sideWeight="0.7542644" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -600,7 +684,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.013620885" sideWeight="0.4979757" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3002283" sideWeight="0.45095947" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -617,390 +701,390 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/blog-page.php</url>
+          <line>14</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/menu-hamburger.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/right-hero-img.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/left-hero-img.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/tw-icon.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/rss-icon.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/fb-icon.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Mcdonalds/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17153749">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/logo-footer.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/email-icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/most-recent-image-bg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/global/feature-post-footer-bg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/front/chair.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/global/_settings.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-29.666666">
-          <caret line="569" column="20" selection-start-line="569" selection-start-column="14" selection-end-line="569" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/images/front/featured-home-img.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/javascript/pages/front.js">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/archive.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/modules/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.020891365">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/foundation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53621167">
-          <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5013928">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08152174">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="42" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/comment-template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.25">
-          <caret line="2201" column="73" selection-start-line="2201" selection-start-column="73" selection-end-line="2201" selection-end-column="73" />
-          <folding>
-            <marker date="1474311624000" expanded="true" signature="39304:39457" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/comments.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8278581">
-          <caret line="110" column="38" selection-start-line="110" selection-start-column="38" selection-end-line="110" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/stylesheets/slick.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="83.041664">
-          <caret line="139" column="17" selection-start-line="139" selection-start-column="17" selection-end-line="139" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/templates/_page-sidebar-left.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/templates/_single-post.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3482972">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/javascript/pages/global.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/side-bar-section.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="57" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/library/foundation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="105" column="93" selection-start-line="105" selection-start-column="93" selection-end-line="105" selection-end-column="93" />
-          <folding />
+          <caret line="86" column="54" selection-start-line="86" selection-start-column="54" selection-end-line="86" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/templates/_front.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="97" column="10" selection-start-line="97" selection-start-column="7" selection-end-line="97" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/author-info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="11" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/gallery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.25">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-          <folding>
-            <element signature="e#816#914#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/comments-section.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="6" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9166666">
-          <caret line="9" column="90" selection-start-line="9" selection-start-column="90" selection-end-line="9" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/library/enqueue-scripts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5882354">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/global/_wp-overrides.scss">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/single-fave.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.784314">
-          <caret line="108" column="9" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/post-content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14018692">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/global/_wp-admin.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19903499">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
+          <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.87616825">
-          <caret line="63" column="68" selection-start-line="63" selection-start-column="68" selection-end-line="63" selection-end-column="68" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="152" column="40" selection-start-line="152" selection-start-column="40" selection-end-line="152" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/javascript/custom/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46022728">
-          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/javascript/pages/article.js">
+    <entry file="file://$PROJECT_DIR$/wp-includes/theme-compat/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="14" />
-          <folding />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/front.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/content-none.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-94.416664">
-          <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="168" selection-end-column="10" />
-          <folding>
-            <element signature="e#152#317#0#HTML" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-10.625">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/modules/_navigation.scss">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/404.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.4117646">
-          <caret line="164" column="6" selection-start-line="164" selection-start-column="6" selection-end-line="164" selection-end-column="6" />
-          <folding />
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/single-article.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="57" />
-          <folding />
+        <state vertical-scroll-proportion="-11.25">
+          <caret line="20" column="77" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19275701">
-          <caret line="11" column="77" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
-          <folding>
-            <element signature="e#6#140#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/single-technology.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.196078">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="65" selection-end-column="36" />
-          <folding>
-            <element signature="e#1602#1620#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/article-hero.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="61" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-8.75">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/article-hero-gallery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3504673">
-          <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.75">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/kitchen-sink.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/searchform.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1826087">
+          <caret line="12" column="162" selection-start-line="12" selection-start-column="162" selection-end-line="12" selection-end-column="162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20869565">
+          <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65217394">
+          <caret line="32" column="94" selection-start-line="32" selection-start-column="91" selection-end-line="32" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/library/menu-walkers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.1960785">
+          <caret line="89" column="44" selection-start-line="89" selection-start-column="15" selection-end-line="89" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/library/navigation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.901961">
+          <caret line="56" column="51" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33972126">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/post-content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39033458">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/admin-ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.325">
+          <caret line="57" column="54" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.1594453">
+          <caret line="5465" column="1" selection-start-line="5465" selection-start-column="1" selection-end-line="5465" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/archive-hero.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15771028">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state vertical-scroll-proportion="-14.375">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/author.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7920277">
+          <caret line="87" column="29" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2980936">
+          <caret line="81" column="40" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/blog-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.610052">
+          <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
+          <folding>
+            <element signature="e#1790#1897#0#HTML" expanded="false" />
+            <marker date="1475530479000" expanded="true" signature="1797:1842" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/category-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65164644">
+          <caret line="64" column="54" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/article-hero.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46363637">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/library/foundation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60833335">
+          <caret line="104" column="31" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14834206">
+          <caret line="89" column="31" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/global/_settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.397351">
+          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/templates/_article.scss">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.29411766">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="51" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.6456954">
+          <caret line="35" column="92" selection-start-line="35" selection-start-column="92" selection-end-line="35" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/single-article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.1764708">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/author-info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.25">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/modules/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1764706">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/modules/_navigation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5215232">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/front.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19636364">
+          <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/javascript/pages/front.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2834395">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8509934">
+          <caret line="190" column="165" selection-start-line="190" selection-start-column="165" selection-end-line="190" selection-end-column="165" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/library/enqueue-scripts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5459272">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/single-technology.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024752475">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/templates/_page-default.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.89575756">
-          <caret line="157" column="21" selection-start-line="157" selection-start-column="21" selection-end-line="157" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0656304">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/archive.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/stylesheets/foundation.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5272727">
-          <caret line="42" column="81" selection-start-line="42" selection-start-column="81" selection-end-line="42" selection-end-column="81" />
-          <folding>
-            <element signature="e#6#561#0#PHP" expanded="true" />
-            <element signature="e#864#938#0#HTML" expanded="true" />
-            <element signature="e#1339#1413#0#HTML" expanded="true" />
-            <element signature="e#1812#1886#0#HTML" expanded="true" />
-            <element signature="e#2289#2363#0#HTML" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.024752475">
+          <caret line="9526" column="0" selection-start-line="9526" selection-start-column="0" selection-end-line="9526" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/templates/_article.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41105354">
+          <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/assets/scss/templates/_front.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="386" column="22" selection-start-line="386" selection-start-column="19" selection-end-line="386" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/comments-section.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14851485">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/share-section.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0990099">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/search-page-hero.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0990099">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/page-hero.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0990099">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/contact-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024752475">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/page-templates/single-fave.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="125" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/so-geeky-so-glam/template-parts/side-bar-section.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42079207">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>

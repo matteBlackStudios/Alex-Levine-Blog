@@ -31,39 +31,22 @@ $classes = (is_single()) ? types_render_field( "post-type", array("output"=>"raw
 	<?php do_action( 'foundationpress_layout_start' ); ?>
 
 	<header id="hero" role="banner">
-<!--		<img src="--><?//= get_template_directory_uri().'/assets/images/global/left-hero-img.jpg' ?><!--" alt="left hero image" class="header-img" id="left-hero-img">-->
-		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img id="logo" src="<?= get_template_directory_uri().'/assets/images/global/logo.png' ?>" alt="So Geeky So Glam Logo" width="439" height="167"/></a>
-<!--		<img src="--><?//= get_template_directory_uri().'/assets/images/global/right-hero-img.jpg'?><!--" alt="right hero image" class="header-img" id="right-hero-img">-->
+		<img src="<?= get_template_directory_uri().'/assets/images/global/left-hero-img.png' ?>" alt="left hero image" class="header-img" id="left-hero-img">
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img id="logo" src="<?= get_template_directory_uri().'/assets/images/global/logo.png' ?>" alt="So Geeky So Glam Logo" /></a>
+		<img src="<?= get_template_directory_uri().'/assets/images/global/right-hero-img.png'?>" alt="right hero image" class="header-img" id="right-hero-img">
 	</header>
 
 	<div id="masthead" class="site-header" role="banner">
 		<nav id="site-navigation" class="main-navigation top-bar" role="navigation">
 			<img id="menu-trigger" src="<?= get_template_directory_uri().'/assets/images/global/menu-hamburger.png' ?>" alt="Menu Hamburger" />
-			<ul class="hide-for-small-only hide-for-medium-only desktop">
-				<li><a href="">About</a></li>
-				<li><a href="">House</a></li>
-				<li><a href="">Beauty</a></li>
-				<li><a href="">City</a></li>
-				<li><a href="">lorem Ipsum</a></li>
-				<li class="search-trigger"><a href=""><i id="search-trigger" class="fa fa-search" aria-hidden="true"></i></a></li>
-			</ul>
+			<?php foundationpress_top_bar_r(); ?>
 			<div id="social-media-top">
-				<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-				<a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-				<a href=""><i class="fa fa-rss" aria-hidden="true"></i> </a>
-<!--				<a href=""><img src="--><?//= get_template_directory_uri().'/assets/images/global/fb-icon.jpg' ?><!--" class="social-icon" /></a>-->
-<!--				<a href=""><img src="--><?//= get_template_directory_uri().'/assets/images/global/tw-icon.jpg' ?><!--" class="social-icon" /></a>-->
-<!--				<a href=""><img src="--><?//= get_template_directory_uri().'/assets/images/global/rss-icon.jpg' ?><!--" class="social-icon" /></a>-->
-			</div>
+				<a href="<?= get_option('facebook-url') ?>" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a href="<?= get_option('twitter-url') ?>" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				<a href="<?= ( empty(get_option('rss-url'))) ? bloginfo('rss_url') : get_option('rss-url') ?>" target="_blank"><i class="fa fa-rss" aria-hidden="true"></i> </a>
 		</nav>
-		<div id="mobile-navigation" style="height: 0px" class="">
-			<ul>
-				<li><a href="">About</a></li>
-				<li><a href="">House</a></li>
-				<li><a href="">Beauty</a></li>
-				<li><a href="">City</a></li>
-				<li><a href="">lorem Ipsum</a></li>
-			</ul>
+		<div id="mobile-navigation" style="opacity:0;position:absolute" class="">
+			<?php foundationpress_mobile_nav() ?>
 		</div>
 	</div>
 

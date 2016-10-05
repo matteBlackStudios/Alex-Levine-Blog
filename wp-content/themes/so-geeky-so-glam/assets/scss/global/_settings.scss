@@ -41,6 +41,10 @@
 //  36. Top Bar
 
 @import '../../components/foundation-sites/scss/util/util';
+@font-face {
+  font-family: 'Bonjour';
+  src: url('../fonts/Bonjour/Bonjour.ttf')  format('truetype')
+}
 
 // 1. Global
 // ---------
@@ -566,5 +570,9 @@ $topbar-unstack-breakpoint: medium;
 
 
 $theme-purple: #CA67DE;
+$theme-dark-purple: #8E489C;
 $theme-medium-gray: #EDEDED;
 $theme-pink: #EEA9A9;
+$theme-dark-pink: #D79898;
+
+$avatar_colors: "rgba(202,103,222,.3)", "rgba(238,169,169,.3)", "rgba(124,196,181,.3)", "rgba(192,202,9, .3)";

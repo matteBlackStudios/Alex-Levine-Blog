@@ -103,7 +103,6 @@ class Foundationpress_Comments extends Walker_Comment {
 	 * You'll have to use this if you plan to get to the top of the comments list, as
 	 * start_lvl() only goes as high as 1 deep nested comments */
 	function __construct() { ?>
-		<h3>Comments <span class="comment-count"><?php echo get_comments_number(); ?></span> <img id="comment-icon" src="<?= get_template_directory_uri() ?>/assets/images/global/comment-pencil-icon.png"> </h3>
         <ol class="comment-list">
 
     <?php }
@@ -112,7 +111,6 @@ class Foundationpress_Comments extends Walker_Comment {
 	 * Starts the list before the CHILD elements are added. */
 	function start_lvl( &$output, $depth = 0, $args = array() ) {
 		$GLOBALS['comment_depth'] = $depth + 1; ?>
-
                 <ul class="children">
     <?php }
 

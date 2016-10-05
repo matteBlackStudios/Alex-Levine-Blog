@@ -6,7 +6,10 @@
  * @since FoundationPress 1.0.0
  */
 
-get_header(); ?>
+get_header();
+wpb_set_post_views(get_the_ID());
+
+?>
 
 <?php
 	$article_type = types_render_field( "post-type", array("output"=>"raw"));

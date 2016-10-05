@@ -8,12 +8,19 @@
 
 get_header(); ?>
 
+<div id="page-404-hero">
+	<div class="overlay"></div>
+	<div class="content">
+		<h1>404 </h1>
+	</div>
+</div>
+
 <div class="row">
-	<div class="small-12 large-8 columns" role="main">
+	<div class="small-12 large-12 columns" id="page-404" role="main">
 
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 			<header>
-				<h1 class="entry-title"><?php _e( 'File Not Found', 'foundationpress' ); ?></h1>
+				<h1 class="entry-title"><?php _e( 'Page Not Found', 'foundationpress' ); ?></h1>
 			</header>
 			<div class="entry-content">
 				<div class="error">
@@ -29,6 +36,5 @@ get_header(); ?>
 		</article>
 
 	</div>
-	<?php get_sidebar(); ?>
 </div>
 <?php get_footer();

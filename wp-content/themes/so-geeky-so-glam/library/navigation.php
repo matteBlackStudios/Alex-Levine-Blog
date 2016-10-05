@@ -8,8 +8,9 @@
  */
 
 register_nav_menus(array(
-	'top-bar-r'  => 'Right Top Bar',
+	'top-bar-r'  => 'Desktop Top Bar',
 	'mobile-nav' => 'Mobile',
+	'footer-nav' => 'Footer',
 ));
 
 
@@ -22,8 +23,8 @@ if ( ! function_exists( 'foundationpress_top_bar_r' ) ) {
 	function foundationpress_top_bar_r() {
 		wp_nav_menu( array(
 			'container'      => false,
-			'menu_class'     => 'dropdown menu',
-			'items_wrap'     => '<ul id="%1$s" class="%2$s desktop-menu" data-dropdown-menu>%3$s</ul>',
+			'menu_class'     => '',
+			'items_wrap'     => '<ul class="hide-for-small-only hide-for-medium-only desktop">%3$s<li class="search-trigger"><a href="javascript:void(0)"><i id="search-trigger" class="fa fa-search trigger-search" aria-hidden="true"></i></a></li></ul>',
 			'theme_location' => 'top-bar-r',
 			'depth'          => 3,
 			'fallback_cb'    => false,
@@ -41,14 +42,32 @@ if ( ! function_exists( 'foundationpress_mobile_nav' ) ) {
 		wp_nav_menu( array(
 			'container'      => false,                         // Remove nav container
 			'menu'           => __( 'mobile-nav', 'foundationpress' ),
-			'menu_class'     => 'vertical menu',
+			'menu_class'     => '',
 			'theme_location' => 'mobile-nav',
-			'items_wrap'     => '<ul id="%1$s" class="%2$s" data-accordion-menu>%3$s</ul>',
+			'items_wrap'     => '<ul id="%1$s">%3$s<li><a href="javascript:void(0)" class="trigger-search">Search</a></li></ul>',
 			'fallback_cb'    => false,
 			'walker'         => new Foundationpress_Mobile_Walker(),
 		));
 	}
 }
+
+/**
+ * Footer navigation - topbar (default) or offcanvas
+ */
+if ( ! function_exists( 'foundationpress_footer_nav' ) ) {
+	function foundationpress_footer_nav() {
+		wp_nav_menu( array(
+			'container'      => false,                         // Remove nav container
+			'menu'           => __( 'footer-nav', 'foundationpress' ),
+			'menu_class'     => '',
+			'theme_location' => 'footer-nav',
+			'items_wrap'     => '<ul id="%1$s">%3$s</ul>',
+			'fallback_cb'    => false,
+			'walker'         => new Foundationpress_Footer_Walker(),
+		));
+	}
+}
+
 
 
 /**

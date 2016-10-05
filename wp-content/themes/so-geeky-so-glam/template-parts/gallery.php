@@ -12,7 +12,7 @@
                 array_push($captions, array($gallery_slide->fields['gallery_caption'], $gallery_slide->fields['gallery_caption_citation']));
             }
             ?>
-            <div class="gallery">
+            <div class="gallery" id="gallery">
                 <?php
                 foreach($gallery_images as $gallery_image){
                     ?>

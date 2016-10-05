@@ -16,40 +16,40 @@
 
 
 <div class="row top-content-section">
-    <div class="columns large-3 medium-3"></div>
-    <div class="columns large-9 medium-9">
-        <?php while ( have_posts() ) : the_post(); ?>
-            <h2><?php echo types_render_field( "fav-lead-copy-title", array("output"=>"raw")); ?></h2>
-            <div class="bottom-copy"><?php echo types_render_field( "content-first-section", array("output"=>"html")); ?></div>
-        <?php endwhile;?>
+    <div class="columns large-12 medium-12"></div>
+    <div class="columns large-12 medium-12">
+        <div class="content">
+            <?php while ( have_posts() ) : the_post(); ?>
+                <h2><?php echo types_render_field( "fav-lead-copy-title", array("output"=>"raw")); ?></h2>
+                <div class="bottom-copy"><?php echo types_render_field( "content-first-section", array("output"=>"html")); ?></div>
+            <?php endwhile;?>
+        </div>
     </div>
 </div>
 <!--content-first-section-->
 <?php get_template_part('template-parts/gallery'); ?>
 
 <div class="row bottom-content-section">
-    <div class="columns large-3  medium-3 hide-for-small-only"></div>
-    <div class="columns large-9  medium-9">
-        <div class="post-tags">
-            <?php
-            $posttags = get_the_tags();
-            if ($posttags) {
-                foreach($posttags as $tag) {
-                    echo '<a href="#" class="clear-tag post-tag fill">'.$tag->name . ' </a>';
+    <div class="columns large-12  medium-12 hide-for-small-only"></div>
+    <div class="columns large-12  medium-12">
+        <div class="content">
+            <div class="post-tags">
+                <?php
+                $posttags = get_the_tags();
+                if ($posttags) {
+                    foreach($posttags as $tag) {
+                        echo '<a href="#" class="clear-tag post-tag fill">'.$tag->name . ' </a>';
+                    }
                 }
-            }
-            ?>
-        </div>
-        <div class="share-buttons">
-            <a href=""><div class="title like"><i class="fa fa-heart" aria-hidden="true"></i> <span>Like</span> <span class="count">2</span></div></a>
-            <a href=""><div class="title fb"><i class="fa fa-facebook" aria-hidden="true"></i> Share</div></a>
-            <a href=""><div class="title tweet"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet</div></a>
-        </div>
-        <?php while ( have_posts() ) : the_post(); ?>
-            <div class="entry-content">
-                <?php edit_post_link( __( 'Edit', 'foundationpress' ), '<span class="edit-link">', '</span>' ); ?>
+                ?>
             </div>
-        <?php endwhile;?>
+            <?php get_template_part('template-parts/share-section')?>
+            <?php while ( have_posts() ) : the_post(); ?>
+                <div class="entry-content">
+                    <?php edit_post_link( __( 'Edit', 'foundationpress' ), '<span class="edit-link">', '</span>' ); ?>
+                </div>
+            <?php endwhile;?>
+        </div>
     </div>
 
 </div>

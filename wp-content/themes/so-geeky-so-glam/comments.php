@@ -103,8 +103,7 @@ if ( comments_open() ) :
 			<input type="text" class="five" name="url" id="url" value="<?php echo esc_attr( $comment_author_url ); ?>" size="22" tabindex="3">
 		</p>
 		<?php endif; ?>
-
-		<img class="avatar" src="<?= get_avatar_url() ?>" alt="avatar">
+		<div class="avatar-content content"><img class="avatar" src="<?= get_avatar_url() ?>" alt="avatar"></div>
 
 
 		<textarea name="comment" id="comment" tabindex="4"></textarea>

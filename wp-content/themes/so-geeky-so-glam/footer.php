@@ -15,17 +15,10 @@
 			<footer id="footer">
 				<div class="row full-width">
 					<div class="columns large-4 medium-12 small-12 left">
-						<a href="#"><img src="<?= get_template_directory_uri().'/assets/images/global/logo-footer.png' ?>" width="247" height="110"/></a>
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?= get_template_directory_uri().'/assets/images/global/logo-footer.png' ?>" width="247" height="110"/></a>
 					</div>
 					<div class="columns large-8 medium-12 small-12 right">
-						<ul>
-							<li><a href="">Tags</a></li>
-							<li><a href="">About</a></li>
-							<li><a href="">House</a></li>
-							<li><a href="">Beauty</a></li>
-							<li><a href="">Archive</a></li>
-							<li><a href="">Contact</a></li>
-						</ul>
+						<?php foundationpress_footer_nav() ?>
 						<div class="form-field">
 							<label>Newsletter</label> <input type="text" placeholder="E-mail" />
 							<a href="#"><img src="<?= get_template_directory_uri().'/assets/images/global/email-icon.png' ?>" class="email-icon"/></a>
@@ -34,6 +27,10 @@
 				</div>
 
 			</footer>
+		</div>
+		<div id="overlay-search" class="overlay-hugeinc">
+			<button width="80" height="80" type="button" class="overlay-close">Close</button>
+			<?php get_search_form() ?>
 		</div>
 
 
