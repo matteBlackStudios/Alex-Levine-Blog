@@ -68,6 +68,7 @@ body{
     margin-bottom:40px;
     border-radius:5px;
     overflow:hidden;
+    float:left;
     h4{
       font-size:12px;
       color:#ffffff;
@@ -77,7 +78,7 @@ body{
       width:auto;
       display: inline-block;
       border-radius:5px;
-      margin-top:20px;
+      margin-top:10px;
       margin-left:10px;
       position:absolute;
       font-weight:bold;
@@ -295,7 +296,7 @@ a{
   height: 180px;
   position:relative;
   color: #FFFFFF;
-  background: $theme-pink;
+  background: $theme-green;
   margin-bottom:60px;
   .content{
     position: relative;
@@ -311,8 +312,9 @@ a{
     h1{
       line-height: 42px;
       font-size: 32px;
-      padding-top:20px;
+      padding-top:0px;
       text-transform: uppercase;
+      margin-bottom:0px;
       @include breakpoint(medium only){
         line-height: 32px;
         font-size: 28px;
@@ -376,6 +378,11 @@ a{
     display: block;
     height:auto;
     outline: 0;
+    transition:all .5s ease;
+    &:hover{
+      color: $theme-pink;
+      border-color: $theme-pink;
+    }
   }
   .edit-link{
     float:right;
@@ -433,7 +440,7 @@ a{
   }
   .page-title{
     text-align: left;
-    color: $theme-dark-pink;
+    color: $theme-green;
     font-weight: bold !important;
     text-transform: uppercase;
     width: 50%;
@@ -638,4 +645,37 @@ a{
   .comment-icon{
     display: none;
   }
+  .technology-post .top-featured-copy{
+    font-weight:bold;
+  }
+}
+.newsletter-hero{
+  height: 150px;
+  background: cover;
+  background-position: center center;
+}
+#mc_embed_signup{
+  padding: 30px 35px 34px;
+  input[type="submit"]{
+    background: $theme-purple;
+    &:hover{
+      background: $theme-dark-purple;
+    }
+  }
+}
+.pagination .current{
+  background: $theme-green !important;
+  &:hover{
+    opacity:.8;
+    transition: opacity .5s ease;
+  }
+  a{
+    color: #ffffff;
+  }
+  .pagination a:hover, .pagination button:hover{
+    color: #ffffff  !important;
+  }
+}
+.pagination a:hover, .pagination button:hover{
+  background: transparent;
 }

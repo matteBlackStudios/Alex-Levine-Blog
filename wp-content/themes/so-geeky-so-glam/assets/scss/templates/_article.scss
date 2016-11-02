@@ -591,7 +591,7 @@
     transition: all .5s ease;
     &:hover{
       border-color: $theme-purple;
-      color: $theme-purple;
+      color: $theme-purple !important;
     }
   }
   form{
@@ -940,6 +940,42 @@
     font-size:24px;
     line-height: 35px;
   }
+  .technology-post{
+    .featured-copy{
+      padding-left:20px;
+      padding-right:20px;
+    }
+  }
+  .article-post, .technology-post{
+    .author-info{
+      width:100%;
+    }
+    .top-featured-copy{
+      padding-top:30px;
+    }
+    .bottom-sidebar{
+      padding-top:50px;
+      padding-bottom:50px;
+    }
+    aside.sidebar{
+      display: none;
+    }
+    .top-content-section, .bottom-content-section, .bottom-featured-section{
+      .columns{
+        padding-right: 25px;
+        padding-left: 25px;
+        width:90% !important;
+        margin-left:auto;
+        margin-right:auto;
+        float:none  !important;
+      }
+    }
+    .top-content-section, .bottom-content-section, .bottom-featured-section{
+      margin-left:auto;
+      margin-right:auto;
+      float:none;
+    }
+  }
 }
 @media(max-width:890px) {
   #respond textarea {
@@ -1041,11 +1077,17 @@
       width: 100%;
     }
   }
-  .author-info{
-    width:90%;
+  .article-post{
+    .author-info{
+      width:90%;
+    }
+  }
+  .technology-post {
+    .author-info{
+      width:100%;
+    }
   }
   .bottom-content-section .top-featured-copy, .top-content-section .top-featured-copy{
-
     padding-top:40px;
   }
   .medium-9{
@@ -1060,6 +1102,20 @@
       width:100%;
     }
   }
+  .technology-post, .article-post{
+    .top-content-section, .bottom-content-section{
+      .author-column{
+        float:none;
+      }
+      .columns:not(.author-column){
+        width:90% !important;
+        margin-left:auto !important;
+        margin-right:auto !important;
+        float:none  !important;
+      }
+    }
+  }
+
 }
 @media(max-width:530px){
   .post-info{
@@ -1161,7 +1217,7 @@
         }
       }
       .copy{
-        marign-left:auto;
+        margin-left:auto;
         margin-right:auto;
         float:none !important;
         position:relative;

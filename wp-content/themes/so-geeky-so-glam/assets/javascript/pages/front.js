@@ -2,10 +2,10 @@ $( document ).ready(function() {
     var feed = new Instafeed({
         sortBy: 'most-recent',
         get: 'user',
-        userId: '1181315011',
+        userId: '30218655',
         limit:9,
-        clientId: '942569088f9e462b863c2580f3b74371',
-        accessToken: '1181315011.1677ed0.adcc069fc0294f97b352f2f2e0f74a2e'
+        clientId: '555253bbfda7484489e9943a76ff0ac7',
+        accessToken: '30218655.1677ed0.271f89da90864f57b1f4d39af7bf9230'
     });
     feed.run();
 

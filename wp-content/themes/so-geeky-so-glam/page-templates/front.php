@@ -30,7 +30,7 @@ wp_reset_query();
 		'consumer_secret' => "7KYcffh0OxPmMjQkHbQciNlanRLCu3gF4WdVuH9KcI"
 	);
 	$url = 'https://api.twitter.com/1.1/statuses/user_timeline.json';
-	$getfield = '?screen_name=sogeekysoglam&count=1';
+	$getfield = '?screen_name=sogeekysoglam&count=1&user_id=79810875&exclude_replies=true&include_rts=false';
 	$requestMethod = 'GET';
 
 	$twitter = new TwitterAPIExchange($settings);
@@ -144,14 +144,14 @@ wp_reset_query();
 				</a>
 				<div id="instagram-feed" class="soc-container">
 					<h5>Instagram</h5>
-					<a href="<?= get_option('instagram-url') ?>" target="_blank" class="handle">@alexlevine</a>
+					<a href="<?= get_option('instagram-url') ?>" target="_blank" class="handle">@sogeekysoglam</a>
 					<div style="clear:both"></div>
 					<div id="instafeed"></div>
 					<a href="<?= get_option('instagram-url') ?>" target="_blank" class="view-profile">View Profile</a>
 				</div>
 				<div id="twitter-feed" class="soc-container">
 					<h5>Twitter</h5>
-					<a href="<?= get_option('twitter-url') ?>" target="_blank"  class="handle">@alexlevine</a>
+					<a href="<?= get_option('twitter-url') ?>" target="_blank"  class="handle">@sogeekysoglam</a>
 					<hr/>
 					<div style="clear:both"></div>
 					<p class="tweet"><?= linkify_tweet($twitter_obj[0]->text) ?></p>

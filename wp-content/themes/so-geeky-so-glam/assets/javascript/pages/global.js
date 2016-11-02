@@ -82,5 +82,21 @@
         }
     });
 
+    $("#subsribe-trigger").on('click', function(){
+        var user_email = $("#newsletter-email").val();
+        $("#newsletter-email").val('');
+        $("#mce-EMAIL").val(user_email);
+    });
+    $(document).on('close.fndtn.reveal', '[data-reveal]', function () {
+        $("#mce-EMAIL").val('');
+    });
+
+    $("#newsletter-start").on('submit', function (e) {
+        var user_email = $("#newsletter-email").val();
+        $("#newsletter-email").val('');
+        $("#mce-EMAIL").val(user_email);
+        $("#newsletter-modal").reveal('open');
+        return false;
+    });
 
 })();

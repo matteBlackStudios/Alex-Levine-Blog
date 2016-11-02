@@ -9,7 +9,7 @@
 ?>
         <!-- Switch to the_author_meta() -->
         <div class="author-info">
-            <img class="author-img" src="<?= get_avatar_url($author_id) ?>" alt="author bio img">
+            <img class="author-img" src="<?= get_avatar_url($author_id) ?>" alt="author bio img" />
             <h3 class="name"><?= get_the_author_meta('display_name', $author_id) ?></h3>
             <p class="bio"><?= get_the_author_meta('user_description', $author_id)  ?></p>
             <div class="social-media-links">

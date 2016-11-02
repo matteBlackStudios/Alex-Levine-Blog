@@ -79,7 +79,7 @@
 @import "modules/navigation";
 @import "modules/footer";
 @import "modules/sidebar";
-@import "modules/editor-style";
+@import "templates/editor-style";
 
 // Components
 @import "components/buttons";
@@ -95,3 +95,5 @@
 @import "templates/page-full-width";
 @import "templates/single-post";
 @import "templates/article";
+
+@import "global/browser-fixes";

@@ -10,25 +10,39 @@
 $classes = (is_single()) ? types_render_field( "post-type", array("output"=>"raw")).'-post' : '';
 
 ?>
-<!doctype html>
+	<!doctype html>
 <html class="no-js " <?php language_attributes(); ?> >
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<?php wp_head(); ?>
+		<?php $image = get_template_directory_uri().'/assets/images/global/logo.png'; ?>
+		<?php  if ( has_post_thumbnail( $post->ID ) ) :
+	        $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
+	        $image = $image[0]; ?>
+		<?php endif; ?>
+		<meta property="og:image" content="<?= $image ?>" />
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+		<link rel="shortcut icon" href="<?= get_template_directory_uri().'/assets/images/global/favicon.png' ?>" type="image/x-icon" />
+		<!-- Begin MailChimp Signup Form -->
+		<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+		<style type="text/css">
+			#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+			/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+               We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+		</style>
 	</head>
-	<body <?php body_class($classes); ?>>
-	<?php do_action( 'foundationpress_after_body' ); ?>
+<body <?php body_class($classes); ?>>
+<?php do_action( 'foundationpress_after_body' ); ?>
 
-	<?php if ( get_theme_mod( 'wpt_mobile_menu_layout' ) == 'offcanvas' ) : ?>
-	<div class="off-canvas-wrapper">
-		<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
-		<?php get_template_part( 'template-parts/mobile-off-canvas' ); ?>
-	<?php endif; ?>
+<?php if ( get_theme_mod( 'wpt_mobile_menu_layout' ) == 'offcanvas' ) : ?>
+<div class="off-canvas-wrapper">
+	<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+	<?php get_template_part( 'template-parts/mobile-off-canvas' ); ?>
+<?php endif; ?>
 
-	<?php do_action( 'foundationpress_layout_start' ); ?>
+<?php do_action( 'foundationpress_layout_start' ); ?>
 
 	<header id="hero" role="banner">
 		<img src="<?= get_template_directory_uri().'/assets/images/global/left-hero-img.png' ?>" alt="left hero image" class="header-img" id="left-hero-img">
@@ -51,4 +65,5 @@ $classes = (is_single()) ? types_render_field( "post-type", array("output"=>"raw
 	</div>
 
 	<section class="container">
-		<?php do_action( 'foundationpress_after_header' );
+<?php do_action( 'foundationpress_after_header' );
+

@@ -16,7 +16,19 @@
   }
   @include breakpoint(small only) {
     #hero{
-      height: 162px !important;
+      height: 90px !important;
+      #left-hero-img {
+        left: 0px;
+        width: 120px !important;
+        height: 90px !important;
+        top: 46px;
+      }
+      #right-hero-img {
+        right: 0px;
+        width: 120px !important;
+        height: 90px !important;
+        top: 46px;
+      }
     }
     #logo{
       margin-top: -9px;
@@ -31,8 +43,12 @@
       padding: 50px 0 !important;
     }
     @include breakpoint(small only) {
-      height: 200px !important;
-      padding: 50px 0 !important;
+      height: 90px !important;
+      padding: 0px 0px !important;
+      #logo{
+        width: 196px;
+        margin-top: 18px;
+      }
     }
 }
 
@@ -216,6 +232,21 @@
   @include breakpoint(medium down){
     padding: 21px 20px 58px 20px;
   }
+  @include breakpoint(small only){
+    padding: 6px 20px 43px 20px !important;
+    #menu-trigger{
+      top: 17px;
+    }
+    #social-media-top{
+      top:9px;
+      a{
+        i{
+          width: 32px;
+          height: 32px;
+        }
+      }
+    }
+  }
   ul{
     margin-top:8px;
   }
@@ -333,6 +364,18 @@
     }
     #right-hero-img{
       right: -170px;
+    }
+  }
+  @include breakpoint(small only){
+    #left-hero-img{
+      left: 0px;
+      width:120px !important;
+      height:90px !important;
+    }
+    #right-hero-img{
+      right: 0px;
+      width:120px !important;
+      height:90px !important;
     }
   }
   #watch {
@@ -633,3 +676,13 @@
     min-height: 34px;
   }
 }
+@include breakpoint(small only){
+  #menu-mobile{
+    li{
+      a{
+        font-size:12px !important;
+      }
+    }
+  }
+}
+
